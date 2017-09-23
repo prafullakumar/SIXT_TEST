@@ -135,5 +135,8 @@ extension SIXTCarsListController : UITableViewDataSource {
 extension SIXTCarsListController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // handle click
+        let vc = CarDetailsController()
+        vc.dataSixt = dataModel[indexPath.row]
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

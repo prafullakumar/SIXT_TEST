@@ -21,6 +21,8 @@
 		3ABC18B61F768F170064E744 /* CarAnnotaionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC18B51F768F170064E744 /* CarAnnotaionView.swift */; };
 		3ABC18B81F768F650064E744 /* CarAnnotaionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ABC18B71F768F650064E744 /* CarAnnotaionView.xib */; };
 		3ABC18BA1F769FCA0064E744 /* CarAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC18B91F769FCA0064E744 /* CarAnnotation.swift */; };
+		3ABC18BE1F76AE790064E744 /* CarDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC18BC1F76AE790064E744 /* CarDetailsController.swift */; };
+		3ABC18BF1F76AE790064E744 /* CarDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ABC18BD1F76AE790064E744 /* CarDetailsController.xib */; };
 		B2FB14FFDB42AD3E58577BE0 /* Pods_SixtTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E33DBD24C1B67014A2A949B /* Pods_SixtTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		3ABC18B51F768F170064E744 /* CarAnnotaionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnnotaionView.swift; sourceTree = "<group>"; };
 		3ABC18B71F768F650064E744 /* CarAnnotaionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarAnnotaionView.xib; sourceTree = "<group>"; };
 		3ABC18B91F769FCA0064E744 /* CarAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnnotation.swift; sourceTree = "<group>"; };
+		3ABC18BC1F76AE790064E744 /* CarDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsController.swift; sourceTree = "<group>"; };
+		3ABC18BD1F76AE790064E744 /* CarDetailsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarDetailsController.xib; sourceTree = "<group>"; };
 		5A7B3FEF73D02B33A61379D5 /* Pods-SixtTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixtTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SixtTest/Pods-SixtTest.debug.xcconfig"; sourceTree = "<group>"; };
 		8E33DBD24C1B67014A2A949B /* Pods_SixtTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SixtTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A30F7E74BE364134266B1C /* Pods-SixtTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SixtTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SixtTest/Pods-SixtTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 			children = (
 				3ABC18A91F766D420064E744 /* SIXTCarsListController.swift */,
 				3ABC18AB1F766D580064E744 /* SIXTCarsMapController.swift */,
+				3ABC18BC1F76AE790064E744 /* CarDetailsController.swift */,
+				3ABC18BD1F76AE790064E744 /* CarDetailsController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 				3ABC18B81F768F650064E744 /* CarAnnotaionView.xib in Resources */,
 				3ABC18911F7628450064E744 /* Main.storyboard in Resources */,
 				3ABC18A61F7652F60064E744 /* BaseViewCell.xib in Resources */,
+				3ABC18BF1F76AE790064E744 /* CarDetailsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +306,7 @@
 				3ABC18B01F7674A50064E744 /* ApiHandler.swift in Sources */,
 				3ABC18AC1F766D580064E744 /* SIXTCarsMapController.swift in Sources */,
 				3ABC18A81F7662920064E744 /* LoadingOverlay.swift in Sources */,
+				3ABC18BE1F76AE790064E744 /* CarDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
