@@ -11,9 +11,16 @@ import UIKit
 class BaseViewCell: UITableViewCell {
 
     @IBOutlet weak var carImage: UIImageView!
-    @IBOutlet weak var carDetails: UILabel!
-    @IBOutlet weak var carSubtitle: UILabel!
-    @IBOutlet weak var carTitle: UILabel!
+    @IBOutlet weak var carName: UILabel!
+    @IBOutlet weak var make: UILabel!
+    @IBOutlet weak var series: UILabel!
+    @IBOutlet weak var fuleType: UILabel!
+    @IBOutlet weak var licence: UILabel!
+    @IBOutlet weak var cleanNess: UILabel!
+    
+    @IBOutlet weak var curLocation: UILabel!
+    @IBOutlet weak var fuleLabel: UILabel!
+    @IBOutlet weak var modelName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
